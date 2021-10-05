@@ -10,3 +10,5 @@ print(add(3,4))
 solution = lambda a : print("짝수다") if a%2==0 else print("홀수다")
 input = int(input())
 solution(input)
+
+print(list(map(lambda x: x ** 2 , range(5))))
